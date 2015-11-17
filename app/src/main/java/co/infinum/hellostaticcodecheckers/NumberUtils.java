@@ -5,15 +5,12 @@ package co.infinum.hellostaticcodecheckers;
  */
 public class NumberUtils {
 
-    public static boolean isGirlSexy(int height){
-        return height < 180 && height > 100;
-    }
-
-    public static boolean isGirlSuperSexy(int height){
-        return height < 180 && height > 140;
-    }
-
-    public static boolean isGirlSuperUltraSexy(int height){
-        return height < 180 && height > 160;
+    public static boolean isAccepted(int status){
+        if(status == 1 || status == 7){
+            return true;
+        }
+        else{
+            return false;
+        }
     }
 }
